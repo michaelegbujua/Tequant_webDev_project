@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.containerv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav{
+    background-color: #021b02;
+    width: 100%;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h2, h3, p {
+    color: green;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+.gray-table{
+    background-color: #d3d3d3; /* Light gray color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Space inside the tablet */
+    margin: 20px auto; /* Center horizontally with some space around */
+    max-width: 600px; /* Restrict width for a tablet-like appearance */
+    box-shadow: 0 4px 8px #0000001a; /* Subtle shadow for depth */
+    font-family: Arial, sans-serif; /* Clean font */
+    text-align: center; /* Center align text */
+  }
